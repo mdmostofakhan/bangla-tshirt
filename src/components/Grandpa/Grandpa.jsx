@@ -12,7 +12,7 @@ const Grandpa = () => {
             <section className='flex'>
                 <Father ring={ring}></Father>
                 <Uncal></Uncal>
-                <Aunty></Aunty>
+                <Aunty ring={ring}></Aunty>
             </section>
         </div>
     );
